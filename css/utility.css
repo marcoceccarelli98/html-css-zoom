@@ -69,6 +69,10 @@
     margin: 50px;
 }
 
+.margin-left-10 {
+    margin-left: 10px;
+}
+
 /* HEIGHT */
 .height-400px {
     height: 400px;
