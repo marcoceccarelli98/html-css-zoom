@@ -59,7 +59,6 @@ main {
 footer {
     background-color: #222222;
     position: fixed;
-    height: 90px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -69,11 +68,11 @@ footer {
 .button {
     text-align: center;
     padding: 10px 0;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .icon {
-    width: 50px;
+    width: 30px;
     filter: invert(100%);
 }
 
@@ -86,4 +85,17 @@ footer {
     filter: invert(100%);
     width: 15px;
     height: 15px;
+}
+
+/* RIGHT */
+.end {
+    height: 100%;
+    color: red;
+    background-color: #4A4A4A;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.end p {
+    padding: 35px 20px;
 }
