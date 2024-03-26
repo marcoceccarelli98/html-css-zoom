@@ -65,10 +65,11 @@ footer {
     right: 0;
 }
 
+/* LEFT */
 .button {
     text-align: center;
-    width: 15%;
-    padding: 10px;
+    padding: 10px 0;
+    margin-left: 50px;
 }
 
 .icon {
@@ -76,7 +77,7 @@ footer {
     filter: invert(100%);
 }
 
-.button span {
+.button p {
     color: white;
 }
 
