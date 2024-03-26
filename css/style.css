@@ -64,3 +64,23 @@ footer {
     left: 0;
     right: 0;
 }
+
+.button {
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+}
+
+.icon {
+    width: 50px;
+    filter: invert(100%);
+}
+
+.button span {
+    color: white;
+}
+
+.freccia {
+    width: 200px;
+    filter: invert(100%);
+}
