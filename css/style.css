@@ -9,10 +9,34 @@ body {
 }
 
 /* ----- HEADER ----- */
-
 header {
     height: 50px;
     background-color: black;
+}
+
+.info-label {
+    position: absolute;
+    right: 0;
+    margin: 10px 10px;
+}
+
+.info {
+    border-radius: 3px;
+    background-color: #494949;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 5px;
+}
+
+.info span {
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.info img {
+    vertical-align: middle;
+    width: 15px;
+    filter: invert(100%);
 }
 
 /* ----- MAIN ----- */
@@ -89,7 +113,6 @@ footer {
 
 /* RIGHT */
 .end {
-    height: 100%;
     color: red;
     background-color: #4A4A4A;
     font-size: 13px;
@@ -97,5 +120,5 @@ footer {
 }
 
 .end p {
-    padding: 35px 20px;
+    padding: 40px 20px;
 }
