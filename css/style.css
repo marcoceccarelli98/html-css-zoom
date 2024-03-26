@@ -22,8 +22,9 @@ main {
 
 .cam-container {
     max-width: 1800px;
-    margin: 0 auto;
+    width: 90vw;
     height: calc(100vh - 140px);
+    margin: auto;
     background-color: black;
     padding: 30px;
 }
